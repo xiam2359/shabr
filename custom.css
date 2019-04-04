@@ -19,5 +19,15 @@
 
 img{
     length: 400px;
-    width: 300px;
+     width: 300px;
 }
+#middle-image {
+   margin-left:100px;
+   margin-right:100px;
+   display:inline-block;
+}
+#testimonial{
+    width:500px;
+}
+  
+
