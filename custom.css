@@ -66,5 +66,5 @@ img {
 }
 
 @media screen and (max-wdith:1200px){
-    .container2 {float: right;}
+    .testimonials {float: right;}
 }
