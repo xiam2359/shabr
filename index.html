@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <!DOCTYPE html>
 <html>
 
@@ -22,7 +20,18 @@
     <script src="script.js"></script>
 </head>
 
-<body >
+<body style="" >
+    <nav class="navbar-nav nav container1">
+        <li class="active text-vertical-center"><a href='#home'><h4>home</h4></a></li>
+        <li class="text-vertical-center"><a href='#information'><h4>information</h4></a></li>
+        <li class="text-vertical-center dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><h4>gallery</h4></a>
+            <ul class="dropdown-menu">
+                <li><a href='#gallery-1'>gallery-1</a></li>
+                <li><a href='#gallery-2'>gallery-2</a></li>
+            </ul>
+        </li>
+        <li class="text-vertical-center"><a href='#contact'><h4>contact</h4></a></li>
+    </nav>
     <header id="landing">
         <div class="text-vertical-center">
             <h1> Skydance</h1>
@@ -42,14 +51,14 @@
         <h2>Home</h2>
         <p> Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.</p>
 
-
-        <div class="row">
+    <div id="gallery-1" class="row">
             <img src="img/balloon-1.jpg">
             <img src="img/balloon-2.jpg">
             <img src="img/balloon-3.jpg">
         </div>
     </div>
-    <div>
+    
+    <div id="information">
                 <h2>Informations</h2>
                 <div class="container col-lg-3">
                     <h3>Time</h3>
@@ -84,13 +93,15 @@
                 
             </div>
 
-    <div class="row">
-        <img src="img/balloon-4.jpg">
-        <img src="img/balloon-5.jpg">
-        <img src="img/balloon-6.jpg">
+    <div id="gallery-2" class="row container2">
+        <div class="container">    
+          <img src="img/balloon-4.jpg">
+          <img src="img/balloon-5.jpg">
+          <img src="img/balloon-6.jpg">
+        </div>
     </div>
 
-    <div>
+    <div id="testimonials">
         <h2>Testimonials</h2>
         <p>"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H.</p>
         <p>"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR." -- Marsha N.</p>
@@ -100,7 +111,8 @@
         <p>"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!" -- Mary C.</p>
         testimonials
     </div>
- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!––data-ride=this load right after page load ––>
 
                 <div class="carousel-inner">
@@ -128,7 +140,7 @@
                 </a>
 
             </div>
-    <div>
+    <div id="contact">
         <h1>contact:</h1>
         <h3>We'd love to hear from you!</h3>
         <h4>address:</h4>SHABR, Inc. 1234 Shabr Road Somewhere, OT 80013
@@ -145,4 +157,3 @@
 </body>
 
 </html>
->>>>>>> f857a9fe3ea919f982d70cdc7b63714b58708169
