@@ -70,23 +70,16 @@ img {
 }
 .info-img {
     padding: 0px 0px 0px;
-<<<<<<< HEAD
 }
 
 .container1{
     background: white;
 }
 
-@media screen and (max-wdith:1200px){
-    .testimonials {float: right;}
-=======
-    margin: auto;
-}
 .row {
             margin-bottom: 20px;
         }
 .carousel-inner > .item > img{
 margin:auto;
 width:100%
->>>>>>> 2fd8a7b15a3fade6f7c9aa40f75e09d75fe0b497
 }
