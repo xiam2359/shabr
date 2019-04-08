@@ -9,6 +9,7 @@ body {
     background-size: cover;
 }
 
+
 #landing {
     display: table;
     width: 100%;
@@ -21,14 +22,25 @@ body {
     width: 100%;
     height: 100%;
     
-    background-size: cover;
+}
+#information {
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+}
+#testimonials {
+    display: table;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .text-vertical-center {
     text-align: center;
     vertical-align: middle;
     display: table-cell;
-    color: white;
+    color: black;
 }
 
 
@@ -41,9 +53,7 @@ img {
    margin-right:100px;
    display:inline-block;
 }
-#testimonial{
-    width:500px;
-}
+
   
 
 
@@ -54,11 +64,13 @@ img {
 }
 
 .carousel{
-    width: 300px;
-    margin-left: 300px;
+    width: 50%;
+    
+    margin:auto ;
 }
 .info-img {
     padding: 0px 0px 0px;
+<<<<<<< HEAD
 }
 
 .container1{
@@ -67,4 +79,14 @@ img {
 
 @media screen and (max-wdith:1200px){
     .testimonials {float: right;}
+=======
+    margin: auto;
+}
+.row {
+            margin-bottom: 20px;
+        }
+.carousel-inner > .item > img{
+margin:auto;
+width:100%
+>>>>>>> 2fd8a7b15a3fade6f7c9aa40f75e09d75fe0b497
 }
