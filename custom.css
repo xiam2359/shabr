@@ -64,8 +64,7 @@ img {
 }
 
 .carousel{
-    width: 50%;
-    
+    width: 1000px;
     margin:auto ;
 }
 .info-img {
@@ -82,4 +81,9 @@ img {
 .carousel-inner > .item > img{
 margin:auto;
 width:100%
+}
+@media screen and (max-width: 980px){
+    .carousel{
+        width: 400px;
+    }
 }
