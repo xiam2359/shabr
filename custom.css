@@ -102,6 +102,25 @@ width:100%
     margin-top: 100px !important;
 }
 
-.container2 {
-    margin-left: 400px;
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100px;
+}
+h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 70px;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:30px;
+    
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    border: 5px double turquoise;
+    background-color: cyan;
+    opacity: .65;
+    
 }
